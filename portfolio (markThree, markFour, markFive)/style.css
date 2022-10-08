@@ -1,0 +1,159 @@
+:root {
+    --1: #83B9FB;
+    --2: #83b9fb7a;
+    --white:#ffffff;
+    --black:#000000;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* nav */
+nav{
+    background-color: var(--1);
+    padding: 1rem;
+    border-bottom-left-radius: 2rem;
+}
+.nav-heading{
+    font-weight: bold;
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: white;
+}
+.nav-heading:hover{
+    color: var(--black);
+}
+.nav-list{
+    text-align: right;
+}
+.nav-list li{
+    display: inline;
+    text-decoration: none;
+    margin-right: 1rem;
+}
+.nav-list li a{
+    text-decoration: none;
+    color: var(--black);
+}
+.nav-list li a:hover{
+    color: var(--white);
+}
+.active{
+    font-weight: bold;
+    font-size: large;
+}
+
+/* header */
+header img{
+    max-width: 300px;
+    height: 300px;
+    display: block;
+    margin: auto;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.header-content{
+    margin-left: 0.5rem;
+}
+.header-content h1{
+    margin: 0;
+}
+.header-content h5{
+    margin: 0;
+    color: var(--1);
+}
+.header-content p{
+    margin-top: 0;
+}
+
+/* Sections */
+.section-lb{
+    background-color: var(--2);
+    padding: 3rem;
+    text-align: center;
+    margin: 0 0.5rem 0 0.5rem;
+    border-radius: 1rem;
+}
+.section-lb h1{
+    margin: 0;
+}
+.section-lb h5{
+    margin: 0;
+}
+
+.section-w{
+    padding: 3rem;
+    text-align: center;
+    margin: 0 0.5rem 0 0.5rem;
+}
+.section-w h1{
+    margin: 0;
+}
+.section-w h5{
+    margin: 0;
+}
+
+
+/* footer */
+footer{
+    background-color: var(--1);
+    margin-top: 2rem;
+    padding: 1rem;
+    border-top-right-radius: 2rem;
+}
+.footer-about{
+    margin: none;
+    padding: 0;
+    list-style: none;
+}
+.footer-social{
+    list-style: none;
+    text-align: right;
+    padding: 0;
+}
+.footer-social li{
+    display: inline;
+    margin-right: 0.5rem;
+}
+
+/* Buttons */
+.primary-bt{
+    color: var(--white);
+    text-decoration: none;
+    background-color: var(--1);
+    border: 1px solid var(--1);
+    border-radius: 1rem;
+    padding: 0.6rem;
+}
+.primary-bt:hover{
+    color: var(--1);
+    text-decoration: none;
+    background-color: var(--white);
+    border: 1px solid var(--1);
+    border-radius: 1rem;
+    padding: 0.6rem;
+}
+.secondary-bt{
+    color: var(--1);
+    text-decoration: none;
+    background-color: var(--white);
+    border: 1px solid var(--1);
+    border-radius: 1rem;
+    padding: 0.6rem;
+}
+.secondary-bt:hover{
+    color: var(--white);
+    text-decoration: none;
+    background-color: var(--1);
+    border: 1px solid var(--1);
+    border-radius: 1rem;
+    padding: 0.6rem;
+}
+
+/* margin */
+.margin-2{
+    margin: 2rem;
+}

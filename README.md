@@ -1,7 +1,7 @@
 # neoG-lvlZero
 [NeoG Camp](https://neog.camp/level-zero) is a BootCamp launched by [Tanay Pratap](https://tanaypratap.com/) wherein he teaches the basics of front end development.
 
-The free course i.e. [lvlZero](https://www.youtube.com/watch?v=Ezk2AwqgS9Q&list=PLzvhQUIpvvuj5KPnyPyWsvgyzNkX_ACPA) really helps in getting more knowledge in the field of Web Development, it provides 14 projects including a [portfolio](https://mayankpruthi.netlify.app) site which you can build while learning. <br>
+The free course i.e. [lvlZero](https://www.youtube.com/watch?v=Ezk2AwqgS9Q&list=PLzvhQUIpvvuj5KPnyPyWsvgyzNkX_ACPA) really helps in getting more knowledge in the field of Web Development and it provides 14 projects including a [portfolio](https://mayankpruthi.netlify.app) site which you can build while learning. <br>
 This course is best for those who are absolute beginner or for those who hadn't  even written their first code yet.
 
 <br>

@@ -1,0 +1,92 @@
+:root{
+    --1:#28305f;
+    --2:#96e9f4;
+}
+
+body{
+    margin: 0;
+    background-color: var(--2);
+}
+.content{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.content h1{
+    text-align: center;
+}
+
+nav{
+    background-color: var(--1);
+    text-align: center;
+}
+nav ul{
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 1rem;
+    list-style: none;
+}
+nav li{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+nav li a{
+    margin-left: 2rem;
+    color: white;
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+.link-active{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+label{
+    font-size: 1.3rem;
+    margin:10px 0 10px 0;
+}
+input{
+    height: 1.5rem;
+    padding: 0.5rem;
+}
+
+.formula-used{
+    border:1px dashed var(--1);
+    text-align: center;
+    padding: 1.5rem;
+    font-size: 1.3rem;
+}
+
+.question-container{
+    border: 1px solid var(--1);
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+button{
+    cursor: pointer;
+    margin:1rem 0 1rem 0;
+    background-color: var(--1);
+    color: white;
+    border: 1px solid var(--1);
+    border-radius: 5px;
+    width: 50%;
+    padding: 0.5rem;
+}
+
+#output{
+    font-size: 1.5rem;
+    margin:0 0 2rem 0;
+}
+
+.footer-social{
+    list-style: none;
+    text-align: center;
+    padding: 2rem;
+}
+.footer-social li{
+    display: inline;
+    margin: 0.5rem;
+}

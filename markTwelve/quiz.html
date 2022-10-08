@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triangle Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">IsTriangle?</a></li>
+            <li><a class="link-active" href="quiz.html">Quiz</a></li>
+            <li><a href="hypotenuse.html">Hypotenuse</a></li>
+            <li><a href="area.html">Area</a></li>
+        </ul>
+    </nav>
+
+    <div class="content">
+        <h1>Triangle Quiz</h1>
+        <form class="quiz-form">
+            <div class="question-container">
+                <p>What is the third angle for the triangle where angle1 = 45° and angle2 = 90°?</p>
+                <label><input type="radio" name="question1" value="45°">45°</label>
+                <label><input type="radio" name="question1" value="75°">75°</label>
+                <label><input type="radio" name="question1" value="80°">80°</label>
+            </div>
+            <br>
+            <br>
+            <div class="question-container">
+                <p>If triangle has an angle of 90°, what is it called?</p>
+                <label><input type="radio" name="question2" value="Acute Angled">Acute Angled</label>
+                <label><input type="radio" name="question2" value="Obtus Angled">Obtus Angled</label>
+                <label><input type="radio" name="question2" value="Right Angled">Right Angled</label>
+            </div>
+            <br>
+            <br>
+            <div class="question-container">
+                <p>What do we call a triangle whose sides are all equal?</p>
+                <label><input type="radio" name="question3" value="Isosceles Triangle">Isosceles Triangle</label>
+                <label><input type="radio" name="question3" value="Equilateral Triangle">Equilateral Triangle</label>
+                <label><input type="radio" name="question3" value="Scalene Triangle">Scalene Triangle</label>
+            </div>
+            <br>
+            <br>
+            <div class="question-container">
+                <p>What do we call the sum of the length of sides of a triangle?</p>
+                <label><input type="radio" name="question4" value="Area">Area</label>
+                <label><input type="radio" name="question4" value="Density">Density</label>
+                <label><input type="radio" name="question4" value="Perimeter">Perimeter</label>
+            </div>
+
+        </form>
+        <br>
+        <button id="submit-btn">Submit</button>
+        <div id="output"></div>
+    </div>
+
+    <footer>
+        <ul class="footer-social">
+            <h2>Social Links</h1>
+            <li><a href="https://github.com/pruthimayank" target="_blank"><img src="img/git.svg" alt="img"></a></li>
+            <li><a href="https://www.linkedin.com/in/pruthimayank/" target="_blank"><img src="img/linkedin.svg" alt="img"></a></li>
+            <li><a href="https://twitter.com/pruthi_mayank_" target="_blank"><img src="img/twitter.svg" alt="img" width="40px"></a></li>
+        </ul>
+    </footer>
+
+    <script src="quiz.js"></script>
+</body>
+
+</html>

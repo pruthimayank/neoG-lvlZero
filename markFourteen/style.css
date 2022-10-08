@@ -1,0 +1,60 @@
+:root{
+    --1:#353837;
+    --2:#9ac828;
+}
+
+body{
+    background-color: var(--1);
+    color: var(--2);
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 80%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+label{
+    font-size: large;
+    margin-top: 1rem;
+}
+
+input{
+    padding: 0.5rem;
+}
+
+button{
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: var(--2);
+    margin-top: 1rem;
+    width: 30%;
+    height: 30px;
+    cursor: pointer;
+}
+
+#output{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.footer-social {
+    background-color: var(--2);
+    color: var(--1);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 2rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.footer-social li {
+    display: inline;
+    margin: 0.5rem;
+}

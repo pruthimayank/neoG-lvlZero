@@ -1,0 +1,29 @@
+.App {
+  font-family: sans-serif;
+  /* margin-left: 2rem; */
+  /* margin-right: 2rem; */
+}
+
+button {
+  margin-right: 1rem;
+  margin-bottom: 0.3rem;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+button:hover {
+  background-color: gray;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  padding: 1rem;
+  margin-bottom: 0.5rem;
+  border: 1px solid gray;
+  border-radius: 0.5rem;
+}

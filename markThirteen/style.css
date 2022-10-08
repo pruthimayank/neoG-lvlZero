@@ -1,0 +1,41 @@
+body{
+    background-color: #333233;
+    color: #fad06e;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+input{
+    align-self: center;
+    margin: 1rem 0;
+    padding: 0.5rem;
+    width: 40%;
+}
+
+button{
+    align-self: center;
+    margin: 2rem 0;
+    padding: 0.5rem;
+    width: 30%;
+}
+
+.footer-social {
+    background-color: #fad06e;
+    color: #333233;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 2rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.footer-social li {
+    display: inline;
+    margin: 0.5rem;
+}

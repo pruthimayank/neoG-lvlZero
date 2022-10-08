@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cash Register Manager</title>
+</head>
+
+<body>
+    <h1>Cash Register Manager</h1>
+    <p>Enter the bill amount and cash given by the customer and know minimum number of notes to return.</p>
+
+    <label id="label-bill-amount" for="bill-amount">Bill Amount: </label>
+    <input id="bill-amount" type="number">
+    <button id="next-btn">Next</button>
+    <label id="label-cash-given" for="cash-given">Cash Given: </label>
+    <input id="cash-given" type="number">
+    <button id="check-btn">Check</button>
+    <p id="error-message"></p>
+
+    <table id="table">
+        <h2 id="table-heading">Return Change</h2>
+        <tr>
+            <th>No. of Notes</th>
+            <td class="no-of-notes"></td>
+            <td class="no-of-notes"></td>
+            <td class="no-of-notes"></td>
+            <td class="no-of-notes"></td>
+            <td class="no-of-notes"></td>
+            <td class="no-of-notes"></td>
+            <td class="no-of-notes"></td>
+
+        </tr>
+        <tr>
+            <th>Notes</th>
+            <td>2000</td>
+            <td>500</td>
+            <td>100</td>
+            <td>20</td>
+            <td>10</td>
+            <td>5</td>
+            <td>1</td>
+        </tr>
+    </table>
+
+    <footer>
+        <ul class="footer-social">
+            <h2>Social Links</h1>
+            <li><a href="https://github.com/pruthimayank" target="_blank"><img src="img/git.svg" alt="img"></a></li>
+            <li><a href="https://www.linkedin.com/in/pruthimayank/" target="_blank"><img src="img/linkedin.svg" alt="img"></a></li>
+            <li><a href="https://twitter.com/pruthi_mayank_" target="_blank"><img src="img/twitter.svg" alt="img" width="40px"></a></li>
+        </ul>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

@@ -29,7 +29,7 @@ This course is best for those who are absolute beginner or for those who hadn't 
 - ## Portfolio
   Portfolio (markThree| markFour| markFive)
   
-  [Live Project](https://mayankpruthi.netlify.app)
+  [Live Project](https://mayank-pruthi.netlify.app)
 
 - ## markSix
   Minion Translator
